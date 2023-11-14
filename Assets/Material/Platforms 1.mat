@@ -25,6 +25,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DETAIL_MULX2
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   - _OCCLUSIONMAP
@@ -49,15 +50,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 63622bd4780d70e48aec72d3332e519a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 52582eae508df2e40b30ba58b22477e1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: df483c0287b4c2347a5476ef9ab4e33a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
@@ -180,7 +181,7 @@ Material:
     - _DetailBrightness: 1
     - _DetailContrast: 1
     - _DetailLighting: 0
-    - _DetailNormalMapScale: 1
+    - _DetailNormalMapScale: 1.36
     - _DetailUV: 0
     - _DetailVertexColors: 0
     - _Diffuse: 1
@@ -227,7 +228,7 @@ Material:
     - _MixedLighting: 0
     - _NormalStrength: 1
     - _NormalUV: 0
-    - _OcclusionStrength: 1
+    - _OcclusionStrength: 0.664
     - _OptFallback: 0
     - _OptFog: 0
     - _OptLightmapping: 0
@@ -261,7 +262,7 @@ Material:
     - _ShadowOverlaySpeedV: 0.03
     - _ShadowOverlaySwayAmount: 0.01
     - _ShadowsEnabled: 1
-    - _Smoothness: 0.769
+    - _Smoothness: 0.726
     - _SmoothnessTextureChannel: 0
     - _SourceBlend: 5
     - _Specular: 0
