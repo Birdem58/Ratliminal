@@ -20,40 +20,19 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Platforms
-  m_Shader: {fileID: 4800000, guid: a2a06e22c08354d9699356710b69ca9c, type: 3}
+  m_Name: Platforms 2
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - DIFFUSE
-  - FOG
-  - MATCAP_PERSPECTIVE
-  - SHADOWS_ENABLED
-  - _DETAILBLEND_MULTIPLY
-  - _DETAILUV_UV1
-  - _HEIGHTCOLORSBLEND_ALPHA_BLEND
-  - _LAYER1BLEND_ALPHA_BLEND
-  - _LAYER2BLEND_ALPHA_BLEND
-  - _LAYER3BLEND_ALPHA_BLEND
-  - _LIGHTMAPUV_UV1
-  - _MATCAPBLEND_MULTIPLY
-  - _NORMALUV_UV1
-  - _OPTFALLBACK_ALL
-  - _OPTFOG_ALL
-  - _OPTLIGHTMAPPING_ALL
-  - _OPTPOINTLIGHTS_ALL
-  - _OPTSHADOW_ALL
-  - _PLANTTYPE_PLANT
-  - _RIMBLEND_ALPHA_BLEND
-  - _SHADOWOVERLAYANIMATION_SCROLL
-  - _SPECULARUV_UV1
-  m_InvalidKeywords:
-  - _IGNOREMAINTEXALPHA_ON
+  - _RECEIVE_SHADOWS_OFF
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_LockedProperties: 
   m_SavedProperties:
@@ -80,7 +59,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailTex:
-        m_Texture: {fileID: 2800000, guid: 63622bd4780d70e48aec72d3332e519a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -108,11 +87,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LightmapTex:
-        m_Texture: {fileID: 2800000, guid: edd92472ebfc0204f8d452c37f2d7bd5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 63622bd4780d70e48aec72d3332e519a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
@@ -124,11 +103,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: df483c0287b4c2347a5476ef9ab4e33a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex2:
-        m_Texture: {fileID: 2800000, guid: df483c0287b4c2347a5476ef9ab4e33a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -190,7 +169,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Contrast: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _Cutout: 0
     - _DestBlend: 10
@@ -199,14 +178,14 @@ Material:
     - _DetailBrightness: 1
     - _DetailContrast: 1
     - _DetailLighting: 0
-    - _DetailNormalMapScale: 1
+    - _DetailNormalMapScale: 1.36
     - _DetailUV: 0
     - _DetailVertexColors: 0
     - _Diffuse: 1
-    - _DiffuseBrightness: 1
+    - _DiffuseBrightness: 1.7
     - _DiffuseContrast: 1
     - _DiffusePerPixel: 0
-    - _DiffuseWrap: 0.79
+    - _DiffuseWrap: 0.38
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -222,7 +201,7 @@ Material:
     - _HeightColorsHeight: 0
     - _HeightColorsSpace: 0
     - _HeightColorsThickness: 0
-    - _IgnoreMainTexAlpha: 1
+    - _IgnoreMainTexAlpha: 0
     - _Layer1Alpha: 1
     - _Layer1Blend: 0
     - _Layer1Brightness: 1
@@ -235,7 +214,7 @@ Material:
     - _Layer3Blend: 0
     - _Layer3Brightness: 1
     - _Layer3VertexColor: 0
-    - _LightmapBrightness: 2.1
+    - _LightmapBrightness: 1
     - _LightmapUV: 0
     - _MatCapBlend: 0
     - _MatCapBrightness: 1
@@ -244,9 +223,9 @@ Material:
     - _MatCapStatic: 0
     - _Metallic: 0
     - _MixedLighting: 0
-    - _NormalStrength: 3.35
+    - _NormalStrength: 1
     - _NormalUV: 0
-    - _OcclusionStrength: 1
+    - _OcclusionStrength: 0.05
     - _OptFallback: 0
     - _OptFog: 0
     - _OptLightmapping: 0
@@ -263,14 +242,14 @@ Material:
     - _PlantType: 0
     - _Preset: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
+    - _ReceiveShadows: 0
     - _Reflection: 0
     - _ReflectionAmount: 1
     - _ReflectionRim: 0
     - _ReflectionSpecular: 0
     - _Rim: 0
-    - _RimAmount: 0.5
-    - _RimBlend: 0
+    - _RimAmount: 1
+    - _RimBlend: 1
     - _RimContrast: 5
     - _RimInverse: 0
     - _Saturation: 1
@@ -280,7 +259,7 @@ Material:
     - _ShadowOverlaySpeedV: 0.03
     - _ShadowOverlaySwayAmount: 0.01
     - _ShadowsEnabled: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 0.073
     - _SmoothnessTextureChannel: 0
     - _SourceBlend: 5
     - _Specular: 0
@@ -305,8 +284,8 @@ Material:
     - _AnimeColor1: {r: 1, g: 1, b: 1, a: 1}
     - _AnimeColor2: {r: 1.35, g: 1.35, b: 1.35, a: 1}
     - _AnimeColor3: {r: 2, g: 2, b: 2, a: 1}
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.0696867, g: 0.20791346, b: 0.4245283, a: 1}
+    - _Color: {r: 0.06968667, g: 0.20791343, b: 0.42452827, a: 1}
     - _DetailColor: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
@@ -319,9 +298,9 @@ Material:
     - _MatCapRot: {r: 0, g: 0, b: 0, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _RimColor: {r: 0.66415095, g: 0.78290516, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimDirection: {r: 0, g: 0, b: 0, a: 0}
-    - _ShadowColor: {r: 0.49056602, g: 0.29283667, b: 0.26101813, a: 1}
+    - _ShadowColor: {r: 0.4339623, g: 0.09515107, b: 0.038483426, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -3,7 +3,12 @@ guid: 62c8b55f6dfee6945aa34aed0abe5091
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: silver
+    second: {fileID: 2100000, guid: 6a6e435abedd9e8489db277185277682, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -44,11 +49,11 @@ ModelImporter:
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
@@ -60,8 +65,8 @@ ModelImporter:
     optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
-    secondaryUVAngleDistortion: 8
-    secondaryUVAreaDistortion: 15.000001
+    secondaryUVAngleDistortion: 21
+    secondaryUVAreaDistortion: 15
     secondaryUVHardAngle: 88
     secondaryUVMarginMethod: 1
     secondaryUVMinLightmapResolution: 40
@@ -71,7 +76,7 @@ ModelImporter:
     strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
