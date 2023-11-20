@@ -69,9 +69,9 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Metallic: 0.118
+    - _Metallic: 0.144
     - _ReceiveShadows: 1
-    - _Smoothness: 0.133
+    - _Smoothness: 0.112
     - _SmoothnessTextureChannel: 0
     - _WorkflowMode: 1
     m_Colors:
