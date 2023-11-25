@@ -16837,6 +16837,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1166504203858240178, guid: 63c80d57edd16ff478397f93b84021b6,
+        type: 3}
+      propertyPath: m_StepOffset
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1359905571100456733, guid: 63c80d57edd16ff478397f93b84021b6,
         type: 3}
       propertyPath: m_LocalPosition.y
