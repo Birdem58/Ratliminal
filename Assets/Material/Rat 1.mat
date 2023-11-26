@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-4558537661006099414
+--- !u!114 &-4769494820209620769
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stairway_Vertical 1
+  m_Name: Rat 1
   m_Shader: {fileID: 4800000, guid: a2a06e22c08354d9699356710b69ca9c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -28,6 +28,7 @@ Material:
   - DIFFUSE
   - FOG
   - MATCAP_PERSPECTIVE
+  - SHADOWS_ENABLED
   - _DETAILBLEND_MULTIPLY
   - _DETAILUV_UV1
   - _HEIGHTCOLORSBLEND_ALPHA_BLEND
@@ -46,13 +47,10 @@ Material:
   - _RIMBLEND_ADDITIVE
   - _SHADOWOVERLAYANIMATION_SCROLL
   - _SPECULARUV_UV1
-  m_InvalidKeywords:
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
-  - _PARALLAXMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -61,11 +59,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 42a5378cb2f542a4db5344b959372a8d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 59a1db374c699e345a04bf6d45554f01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 914040e0eb9bb624d868e1674ad5b600, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -114,18 +112,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 1c79fa60031dff54b827b7560df2063c, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 1, y: 1.99}
         m_Offset: {x: 0, y: 0}
     - _MatCapTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 72dd0a6dd62a87f48839f6fed03ba048, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 914040e0eb9bb624d868e1674ad5b600, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex2:
@@ -137,7 +135,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
-        m_Texture: {fileID: 2800000, guid: 2a691da5be7ea6c41843ab20c9f4382a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionTex:
@@ -191,7 +189,7 @@ Material:
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Contrast: 1
-    - _Cull: 2
+    - _Cull: 0
     - _Cutoff: 0.5
     - _Cutout: 0
     - _DestBlend: 10
@@ -200,14 +198,14 @@ Material:
     - _DetailBrightness: 1
     - _DetailContrast: 1
     - _DetailLighting: 0
-    - _DetailNormalMapScale: 1
+    - _DetailNormalMapScale: 1.36
     - _DetailUV: 0
     - _DetailVertexColors: 0
     - _Diffuse: 1
-    - _DiffuseBrightness: 1.4
+    - _DiffuseBrightness: 3.1
     - _DiffuseContrast: 1
     - _DiffusePerPixel: 0
-    - _DiffuseWrap: 0.26
+    - _DiffuseWrap: 0.29
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
@@ -245,9 +243,9 @@ Material:
     - _MatCapStatic: 0
     - _Metallic: 0
     - _MixedLighting: 0
-    - _NormalStrength: 1
+    - _NormalStrength: 1.78
     - _NormalUV: 0
-    - _OcclusionStrength: 1
+    - _OcclusionStrength: 0.664
     - _OptFallback: 0
     - _OptFog: 0
     - _OptLightmapping: 0
@@ -280,7 +278,7 @@ Material:
     - _ShadowOverlaySpeedU: 0.1
     - _ShadowOverlaySpeedV: 0.03
     - _ShadowOverlaySwayAmount: 0.01
-    - _ShadowsEnabled: 0
+    - _ShadowsEnabled: 1
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
     - _SourceBlend: 5
@@ -322,7 +320,7 @@ Material:
     - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
     - _RimDirection: {r: 0, g: 0, b: 0, a: 0}
-    - _ShadowColor: {r: 0.3, g: 0.3, b: 0.3, a: 1}
+    - _ShadowColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
