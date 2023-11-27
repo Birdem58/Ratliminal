@@ -332,7 +332,7 @@ namespace StarterAssets
                 {
                     // update animator if using character
                     if (_hasAnimator)
-                    {
+                    { 
                         _animator.SetBool(_animIDFreeFall, true);
                     }
                 }

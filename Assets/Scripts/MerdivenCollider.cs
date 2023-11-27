@@ -14,7 +14,6 @@ public class MerdivenGirisCollider : MonoBehaviour
     private float jHeight;
     private float stepOffset;
     public float minScale = 0.5f;
-    public float maxScale = 3.0f;
     public float negScale = 0.05f;
     public float stepOfLim = 0.1f;
     [SerializeField] private bool girdi = false;
@@ -70,7 +69,7 @@ public class MerdivenGirisCollider : MonoBehaviour
                 {
                     Vector3 negativeScale = new Vector3(negScale, negScale, negScale);
                     Vector3 minimumScale = new Vector3(minScale, minScale, minScale);
-                    Vector3 maximumScale = new Vector3(maxScale, maxScale, maxScale);
+                   
 
 
 
