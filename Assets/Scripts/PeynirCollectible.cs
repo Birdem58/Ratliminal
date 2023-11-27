@@ -8,6 +8,8 @@ public class PeynirCollectible : MonoBehaviour
 
     private MeshRenderer m_MeshRenderer;
     private Collider m_Collider;
+    public float maxScale = 2.5f;
+
     void Start()
     {
         m_MeshRenderer = GetComponent<MeshRenderer>();
@@ -25,19 +27,28 @@ public class PeynirCollectible : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Vector3 newScale = new Vector3(0.1f, 0.1f, 0.1f);
-            other.transform.localScale += newScale;
+            Vector3 maximumScale = new Vector3(maxScale, maxScale, maxScale);
+            if (other.transform.localScale.x < maximumScale.x && other.transform.localScale.y < maximumScale.y && other.transform.localScale.z < maximumScale.z)
+            {
+                Vector3 newScale = new Vector3(0.1f, 0.1f, 0.1f);
+                other.transform.localScale += newScale;
+            }
+            else
+            {
+                other.transform.localScale = maximumScale;
+            }
+           
             StartCoroutine("OneSecondHide");
 
+            }
         }
-    }
 
-    IEnumerator OneSecondHide()
-    {
-        m_MeshRenderer.enabled = false;
-        m_Collider.enabled = false;
-        yield return new WaitForSeconds(1);
-        m_MeshRenderer.enabled = true;
-        m_Collider.enabled = true;
-    }
-}
+        IEnumerator OneSecondHide()
+        {
+            m_MeshRenderer.enabled = false;
+            m_Collider.enabled = false;
+            yield return new WaitForSeconds(1);
+            m_MeshRenderer.enabled = true;
+            m_Collider.enabled = true;
+        }
+    } 

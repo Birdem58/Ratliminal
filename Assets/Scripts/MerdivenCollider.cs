@@ -13,6 +13,10 @@ public class MerdivenGirisCollider : MonoBehaviour
     private float sPos;
     private float jHeight;
     private float stepOffset;
+    public float minScale = 0.5f;
+    public float maxScale = 3.0f;
+    public float negScale = 0.05f;
+    public float stepOfLim = 0.1f;
     [SerializeField] private bool girdi = false;
     [SerializeField] private ThirdPersonController thirdPersonController;
     [SerializeField] private CharacterController characterController;
@@ -31,7 +35,7 @@ public class MerdivenGirisCollider : MonoBehaviour
     {
        // merdivenici.isOnMerdiven = girdi;
         counter += Time.deltaTime;
-
+                
 
     }
     private void OnTriggerEnter(Collider other)
@@ -64,8 +68,9 @@ public class MerdivenGirisCollider : MonoBehaviour
 
                 if (temp >= 0.1f)
                 {
-                    Vector3 negativeScale = new Vector3(0.05f, 0.05f, 0.05f);
-                    Vector3 minimumScale = new Vector3(0.5f, 0.5f, 0.5f);
+                    Vector3 negativeScale = new Vector3(negScale, negScale, negScale);
+                    Vector3 minimumScale = new Vector3(minScale, minScale, minScale);
+                    Vector3 maximumScale = new Vector3(maxScale, maxScale, maxScale);
 
 
 
@@ -77,7 +82,7 @@ public class MerdivenGirisCollider : MonoBehaviour
                     else
                     {
                         other.transform.localScale = minimumScale;
-                        characterController.stepOffset = 0.1f;
+                        characterController.stepOffset = stepOfLim;
                     }
                 }
 
