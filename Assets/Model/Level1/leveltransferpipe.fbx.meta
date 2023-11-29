@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 190a17300613fb24a8dc575a9dce14c3
+guid: 6426be6dde1e44240a138f05f850d47c
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -7,13 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Platform
-    second: {fileID: 2100000, guid: 519cf95574150ef439ce5f4b9b24ae07, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Platforms
-    second: {fileID: 2100000, guid: 27a08d29f72d03a40939ba3e0c8da181, type: 2}
+      name: Tunnel
+    second: {fileID: 2100000, guid: df7ebf4572d22d04a8b4306ef2c3f5e8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -81,7 +76,7 @@ ModelImporter:
     strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 1
+    normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
