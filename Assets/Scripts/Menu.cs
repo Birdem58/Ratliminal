@@ -18,7 +18,7 @@ public class Menu : MonoBehaviour
 
     public void OpenCredits()
     {
-        // Credits menüsünü açmak için gerekli kodlar buraya eklenebilir.
+        SceneManager.LoadScene(7);
     }
 
     public void BackButton()
