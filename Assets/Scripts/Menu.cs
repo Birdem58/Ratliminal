@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+
+    public AudioMixer audioMixer;
     public void Play()
     {
-        SceneManager.LoadScene("level0");
+        SceneManager.LoadScene(1);
     }
 
     public void OpenOptions()
@@ -18,6 +21,16 @@ public class Menu : MonoBehaviour
         // Credits menüsünü açmak için gerekli kodlar buraya eklenebilir.
     }
 
+    public void BackButton()
+    {
+
+    }
+
+
+    public void SetValume(float volume)
+    {
+        audioMixer.SetFloat("Volume",volume);
+    }
     public void QuitGame()
     {
         Application.Quit();
