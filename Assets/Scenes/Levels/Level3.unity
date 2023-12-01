@@ -1877,6 +1877,7 @@ GameObject:
   - component: {fileID: 1154127964}
   - component: {fileID: 1154127963}
   - component: {fileID: 1154127965}
+  - component: {fileID: 1154127966}
   m_Layer: 0
   m_Name: RespawnTrigger
   m_TagString: Untagged
@@ -1933,6 +1934,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 751190071}
+--- !u!114 &1154127966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1154127961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 5
 --- !u!1 &1154949588 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 65e2cff3a389ca04f9b4a319a004a4fb,

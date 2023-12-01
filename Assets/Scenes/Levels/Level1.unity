@@ -188,10 +188,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 13707483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065b03607f78ad54e9f1d920e660b58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1587378673}
+  level: 3
 --- !u!1 &78373573 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 190a17300613fb24a8dc575a9dce14c3,
@@ -2110,10 +2110,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 883212526}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065b03607f78ad54e9f1d920e660b58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1587378673}
+  level: 3
 --- !u!1 &913364653 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 71992939067cf524fa02beb47e2396de,
@@ -2561,10 +2561,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160907958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065b03607f78ad54e9f1d920e660b58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1587378673}
+  level: 3
 --- !u!1001 &1196955752
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3004,10 +3004,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1286366011}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065b03607f78ad54e9f1d920e660b58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1587378673}
+  level: 3
 --- !u!1 &1296592349
 GameObject:
   m_ObjectHideFlags: 0
@@ -3315,10 +3315,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1323430383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065b03607f78ad54e9f1d920e660b58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1587378673}
+  level: 3
 --- !u!1001 &1330375811
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4183,10 +4183,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1627219113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 065b03607f78ad54e9f1d920e660b58b, type: 3}
+  m_Script: {fileID: 11500000, guid: 30a1437ecfdf3594c864ca632be1b760, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1587378673}
+  level: 3
 --- !u!1 &1677949582
 GameObject:
   m_ObjectHideFlags: 0
