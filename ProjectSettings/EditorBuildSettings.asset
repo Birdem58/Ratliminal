@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CinematicScene.unity
     guid: dcc45c1078c581e4294e627211e483c5
   - enabled: 1
+    path: Assets/Scenes/Levels/LoadingScene.unity
+    guid: c6d3e0c62cbe73349918ee8bba90e5c7
+  - enabled: 1
     path: Assets/Scenes/Levels/Level0.unity
     guid: 1973de525aa557849a7e585fa4cf5492
   - enabled: 1
