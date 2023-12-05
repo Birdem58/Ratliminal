@@ -9,7 +9,8 @@ public class RforRestart : MonoBehaviour
   
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R))
+        Cursor.lockState = CursorLockMode.Locked;
+        if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(sceneIndex);
         }
