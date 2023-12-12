@@ -2368,6 +2368,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7008200412917288569, guid: bb5af4730c0b3d841be9f226aa8d9601,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: -13.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008200412917288569, guid: bb5af4730c0b3d841be9f226aa8d9601,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 14.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008200412917288569, guid: bb5af4730c0b3d841be9f226aa8d9601,
+        type: 3}
+      propertyPath: InitialModule.startSpeed.minScalar
+      value: 3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008200412917288569, guid: bb5af4730c0b3d841be9f226aa8d9601,
+        type: 3}
+      propertyPath: InitialModule.gravityModifier.scalar
+      value: -0.11
+      objectReference: {fileID: 0}
     - target: {fileID: 7897028884158383630, guid: bb5af4730c0b3d841be9f226aa8d9601,
         type: 3}
       propertyPath: m_Name
