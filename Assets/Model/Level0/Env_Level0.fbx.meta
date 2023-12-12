@@ -17,8 +17,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Fir
+    second: {fileID: 2100000, guid: be8a66a9d6b354247970989f0786afc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Stones
     second: {fileID: 2100000, guid: 747fb991ef1051b43b0f8a59c36ff52d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 5134949b659040f4494b3a906aeab812, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
