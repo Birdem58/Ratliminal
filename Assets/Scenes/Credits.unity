@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -542,7 +542,7 @@ RectTransform:
   m_AnchorMin: {x: 0.149, y: 0.8298876}
   m_AnchorMax: {x: 0.149, y: 0.8298876}
   m_AnchoredPosition: {x: 1, y: -1}
-  m_SizeDelta: {x: 111.7125, y: 30}
+  m_SizeDelta: {x: 69.66, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &942971370
 MonoBehaviour:
@@ -847,12 +847,13 @@ MonoBehaviour:
   m_text: "Naz S\xF6kmen\nHuzeyfe Celep\n\n\nNaz S\xF6kmen\n\nHuzeyfe Celep\n\nNaz
     S\xF6kmen\n\nHuzeyfe Celep\nNaz S\xF6kmen\n\nNOSTALGIA-1  f a i l e d\n\n\n\nAngry
     Nugget\n\nMr.Huzeyfe\n\n\nNaz S\xF6kmen\n\n \n\n\nNeutrogena Hand Care Cream\n\n\n\nNaz
-    S\xF6kmen's Mental\n\nHuzeyfe Celep\n\n\n\n\n\nHuzeyfe Celep\n\n\n\n\n\nNaz S\xF6kmen\n\n\nHuzeyfe
+    S\xF6kmen's Mental\n\nHuzeyfe Celep\n\n\n\nHuzeyfe Celep\n\n\n\n\n\nNaz S\xF6kmen\n\n\n\n\nHuzeyfe
     Celep\n\nNaz S\xF6kmen\n\nHuzeyfe Celep\n\nNone \n\nNone\n\n\nNone\n\n\nFaruk
     Siner\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b366227cce123734e988764b67aaa3b9, type: 2}
+  m_sharedMaterial: {fileID: 3824656685629967712, guid: b366227cce123734e988764b67aaa3b9,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -883,7 +884,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1164,12 +1165,13 @@ MonoBehaviour:
     Music by Forgotten Dawn:\n\nNon-existent sponsor company:\n\nDeveloped by:\n\nCinematic
     Cutscene:\n\n \n\n\nNon-existent sponsor company (Diffrent One):\n\n\nExistent
     Sponsor Company :\n\nCreative Director Exclusive:\n\nHard Working Student Even
-    Tho he had a blasting Midterm week :\n\n\nHoles in the Cheese Enginering designer:\n\n\"fuck
+    Tho he had a blasting Midterm week :\n\n\nHoles in the Cheese Enginering designer:\n\n\n\"fuck
     it we cant do that \" Teller :\n\nGod Artist:\n\r\nGod Developer:\n\nBad Artist:
     \n\nBad Developer: \n\nAI Programs we used:\n\nAlfa Beta Sigma tester: "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b366227cce123734e988764b67aaa3b9, type: 2}
+  m_sharedMaterial: {fileID: 3824656685629967712, guid: b366227cce123734e988764b67aaa3b9,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
